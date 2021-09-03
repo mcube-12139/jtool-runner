@@ -52,7 +52,7 @@ global.objectIDs[25] = objGravityDown;
 global.objectIDs[26] = objSaveFlip;
 global.objectIDs[27] = objMiniKillerBlock;
 
-//global.basePath = "D:/gamemaker-studio/project/IWBT Studio Engine YoYoYo Edition v1.51/IWBT Studio Engine YoYoYo Edition v1_51 Lite.gmx/";
+//global.basePath = "D:/gamemaker-studio/project/jtool-runner.gmx/";
 global.basePath = working_directory;
 
 // check resource directory

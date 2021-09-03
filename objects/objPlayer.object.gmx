@@ -187,8 +187,8 @@ if (!frozen)    //don't move if frozen
 
 //vine checks
 var notOnBlock = (place_free(x,y+(global.grav)));
-var onVineL = (place_meeting(x-1,y,objWalljumpL) &amp;&amp; notOnBlock);
-var onVineR = (place_meeting(x+1,y,objWalljumpR) &amp;&amp; notOnBlock);
+var onVineL = (distance_to_object(objWalljumpL) &lt;= 1 &amp;&amp; notOnBlock);
+var onVineR = (distance_to_object(objWalljumpR) &lt;= 1 &amp;&amp; notOnBlock);
 
 if (h != 0)  //player is moving
 {
